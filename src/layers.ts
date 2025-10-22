@@ -18,7 +18,7 @@ export const dateTable = new FeatureLayer({
     },
   },
 });
-
+////////////////////////////////////////////
 /* Chainage Layer  */
 var labelChainage = new LabelClass({
   labelExpressionInfo: { expression: "$feature.KmSpot" },
